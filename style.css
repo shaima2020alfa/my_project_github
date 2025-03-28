@@ -1,27 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #0a192f;
+    color: #ffffff;
     text-align: center;
+    margin: 0;
+    padding: 0;
     }
+    
     header {
-        padding: 20px;
-        font-size: 24px;
-        background: #111;
+    background-color: #1e3a5f;
+    padding: 20px;
     }
-    .container {
-        margin-top: 20px;
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
     }
-    button {
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        background: #007BFF;
-        color: white;
-        border: none;
+    
+    nav ul li {
+    display: inline;
+    margin: 0 15px;
     }
-    #data {
-        margin-top: 20px;
-        padding: 20px;
-        background: rgba(255, 255, 255, 0.1);
+    
+    nav a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    #intro {
+    margin: 40px 0;
+    }
+    
+    #space-data {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    }
+    
+    footer {
+    margin-top: 30px;
+    background-color: #1e3a5f;
+    padding: 10px;
     }
